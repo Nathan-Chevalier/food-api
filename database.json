@@ -111,7 +111,7 @@
       "description": "Generic Aldi Brand",
       "storageDate": "2023-09-11",
       "expirationDate": "2024-12-20",
-      "imageId": 2,
+      "imageId": 1,
       "typeId": 7,
       "quantity": 0.5,
       "quantityUnitId": 4
@@ -124,7 +124,7 @@
       "description": "Birthday Cake Flavor from Trader Joe's",
       "storageDate": "2023-09-11",
       "expirationDate": "2024-12-24",
-      "imageId": 3,
+      "imageId": 1,
       "typeId": 5,
       "quantity": 0.5,
       "quantityUnitId": 3
