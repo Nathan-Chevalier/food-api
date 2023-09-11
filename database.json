@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Nathan",
+      "email": "nathan@email.com",
+      "imageId": 1
+    }
+  ],
+  "storages": [
+    {
+      "id": 1,
+      "name": "Pantry"
+    },
+    {
+      "id": 2,
+      "name": "Refrigerator"
+    },
+    {
+      "id": 3,
+      "name": "Freezer"
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Ingredient"
+    },
+    {
+      "id": 2,
+      "name": "Snack"
+    },
+    {
+      "id": 3,
+      "name": "Meal"
+    },
+    {
+      "id": 4,
+      "name": "Cooked Meal"
+    },
+    {
+      "id": 5,
+      "name": "Dessert"
+    },
+    {
+      "id": 6,
+      "name": "Drink"
+    },
+    {
+      "id": 7,
+      "name": "Condiment"
+    },
+    {
+      "id": 8,
+      "name": "Seasoning"
+    }
+  ],
+  "quantityUnits": [
+    {
+      "id": 1,
+      "name": "Can"
+    },
+    {
+      "id": 2,
+      "name": "Bag"
+    },
+    {
+      "id": 3,
+      "name": "Container"
+    },
+    {
+      "id": 4,
+      "name": "Bottle"
+    },
+    {
+      "id": 5,
+      "name": "Piece"
+    },
+    {
+      "id": 6,
+      "name": "Jar"
+    },
+    {
+      "id": 7,
+      "name": "Plate"
+    },
+    {
+      "id": 8,
+      "name": "Unit"
+    }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "userId": 1,
+      "storageId": 1,
+      "name": "Raisin Bran",
+      "description": "Large sized box from Sam's Club",
+      "storageDate": "2023-09-11",
+      "expirationDate": "2024-01-15",
+      "imageId": 1,
+      "typeId": 3,
+      "quantity": 1,
+      "quantityUnitId": 3
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "storageId": 2,
+      "name": "Mustard",
+      "description": "Generic Aldi Brand",
+      "storageDate": "2023-09-11",
+      "expirationDate": "2024-12-20",
+      "imageId": 2,
+      "typeId": 7,
+      "quantity": 0.5,
+      "quantityUnitId": 4
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "storageId": 3,
+      "name": "Ice Cream",
+      "description": "Birthday Cake Flavor from Trader Joe's",
+      "storageDate": "2023-09-11",
+      "expirationDate": "2024-12-24",
+      "imageId": 3,
+      "typeId": 5,
+      "quantity": 0.5,
+      "quantityUnitId": 3
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "address": "URL HERE",
+      "name": "Placeholder Image"
+    }
+  ]
+}
