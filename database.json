@@ -4,7 +4,19 @@
       "id": 1,
       "firstName": "Nathan",
       "email": "nathan@email.com",
-      "imageId": 1
+      "userImageId": 1
+    },
+    {
+      "email": "tina@email.com",
+      "firstName": "Tina",
+      "userImageId": 1,
+      "id": 2
+    },
+    {
+      "email": "myriam@email.com",
+      "firstName": "Myriam",
+      "userImageId": 1,
+      "id": 3
     }
   ],
   "storages": [
@@ -91,19 +103,6 @@
   ],
   "foods": [
     {
-      "id": 1,
-      "userId": 1,
-      "storageId": 1,
-      "name": "Raisin Bran",
-      "description": "Large sized box from Sam's Club",
-      "storageDate": "2023-09-11",
-      "expirationDate": "2024-01-15",
-      "imageId": 1,
-      "typeId": 3,
-      "quantity": 1,
-      "quantityUnitId": 3
-    },
-    {
       "id": 2,
       "userId": 1,
       "storageId": 2,
@@ -123,11 +122,114 @@
       "name": "Ice Cream",
       "description": "Birthday Cake Flavor from Trader Joe's",
       "storageDate": "2023-09-11",
-      "expirationDate": "2024-12-24",
+      "expirationDate": "2024-12-26",
       "imageId": 1,
       "typeId": 5,
       "quantity": 0.5,
-      "quantityUnitId": 3
+      "quantityUnitId": 3,
+      "type": {
+        "id": 5,
+        "name": "Dessert"
+      },
+      "quantityUnit": {
+        "id": 3,
+        "name": "Container"
+      },
+      "image": {
+        "id": 1,
+        "address": "URL HERE",
+        "name": "Placeholder Image"
+      },
+      "storage": {
+        "id": 3,
+        "name": "Freezer"
+      }
+    },
+    {
+      "storageDate": "2023-09-13",
+      "storageId": 2,
+      "userId": 1,
+      "imageId": 1,
+      "name": "Celery",
+      "typeId": 1,
+      "description": "Stalk of Celery from Aldi",
+      "expirationDate": "2023-09-19",
+      "quantity": 1,
+      "quantityUnitId": 5,
+      "id": 5
+    },
+    {
+      "storageDate": "2023-09-13",
+      "storageId": 1,
+      "userId": 1,
+      "imageId": 1,
+      "name": "Cajun Hot Peanuts",
+      "typeId": 2,
+      "description": "They're hot!",
+      "expirationDate": "2025-10-13",
+      "quantity": 1,
+      "quantityUnitId": 1,
+      "id": 6,
+      "type": {
+        "id": 2,
+        "name": "Snack"
+      },
+      "quantityUnit": {
+        "id": 1,
+        "name": "Can"
+      },
+      "image": {
+        "id": 1,
+        "address": "URL HERE",
+        "name": "Placeholder Image"
+      },
+      "storage": {
+        "id": 3,
+        "name": "Freezer"
+      }
+    },
+    {
+      "storageDate": "2023-09-13",
+      "storageId": 2,
+      "userId": 2,
+      "imageId": 1,
+      "name": "Leftovers",
+      "typeId": 4,
+      "description": "Some slop from yesterday",
+      "expirationDate": "2023-09-27",
+      "quantity": 1,
+      "quantityUnitId": 7,
+      "id": 7
+    },
+    {
+      "storageDate": "2023-09-14",
+      "storageId": 1,
+      "userId": 1,
+      "imageId": 1,
+      "name": "Crispy Oats",
+      "typeId": 3,
+      "description": "Offbrand Aldi Cheerios",
+      "expirationDate": "2023-09-16",
+      "quantity": 1,
+      "quantityUnitId": 3,
+      "id": 9,
+      "type": {
+        "id": 3,
+        "name": "Meal"
+      },
+      "quantityUnit": {
+        "id": 3,
+        "name": "Container"
+      },
+      "image": {
+        "id": 1,
+        "address": "URL HERE",
+        "name": "Placeholder Image"
+      },
+      "storage": {
+        "id": 1,
+        "name": "Pantry"
+      }
     }
   ],
   "images": [
@@ -135,6 +237,53 @@
       "id": 1,
       "address": "URL HERE",
       "name": "Placeholder Image"
+    }
+  ],
+  "userImages": [
+    {
+      "id": 1,
+      "address": "https://i.imgur.com/7R91azI.png",
+      "name": "Avocado"
+    },
+    {
+      "id": 2,
+      "address": "https://i.imgur.com/66yPh3L.png",
+      "name": "Mushroom"
+    },
+    {
+      "id": 3,
+      "address": "https://i.imgur.com/8lvMqVZ.png",
+      "name": "Cheese"
+    },
+    {
+      "id": 4,
+      "address": "https://i.imgur.com/HcWk7DC.png",
+      "name": "Bread"
+    },
+    {
+      "id": 5,
+      "address": "https://i.imgur.com/IO0xMuU.png",
+      "name": "Pepper"
+    },
+    {
+      "id": 6,
+      "address": "https://i.imgur.com/fXYQZVn.png",
+      "name": "Banana"
+    },
+    {
+      "id": 7,
+      "address": "https://i.imgur.com/tNcTcuJ.png",
+      "name": "Hot Dog"
+    },
+    {
+      "id": 8,
+      "address": "https://i.imgur.com/tjsvXbr.png",
+      "name": "Pineapple"
+    },
+    {
+      "id": 9,
+      "address": "https://imgur.com/TwFMaVs",
+      "name": "Plate"
     }
   ]
 }
