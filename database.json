@@ -9,13 +9,13 @@
     {
       "email": "tina@email.com",
       "firstName": "Tina",
-      "userImageId": 1,
+      "userImageId": 2,
       "id": 2
     },
     {
       "email": "myriam@email.com",
       "firstName": "Myriam",
-      "userImageId": 1,
+      "userImageId": 3,
       "id": 3
     }
   ],
@@ -103,47 +103,17 @@
   ],
   "foods": [
     {
-      "id": 2,
       "userId": 1,
       "storageId": 2,
       "name": "Mustard",
-      "description": "Generic Aldi Brand",
+      "description": "Generic",
       "storageDate": "2023-09-11",
       "expirationDate": "2024-12-20",
       "imageId": 1,
       "typeId": 7,
       "quantity": 0.5,
-      "quantityUnitId": 4
-    },
-    {
-      "id": 3,
-      "userId": 1,
-      "storageId": 3,
-      "name": "Ice Cream",
-      "description": "Birthday Cake Flavor from Trader Joe's",
-      "storageDate": "2023-09-11",
-      "expirationDate": "2024-12-26",
-      "imageId": 1,
-      "typeId": 5,
-      "quantity": 0.5,
-      "quantityUnitId": 3,
-      "type": {
-        "id": 5,
-        "name": "Dessert"
-      },
-      "quantityUnit": {
-        "id": 3,
-        "name": "Container"
-      },
-      "image": {
-        "id": 1,
-        "address": "URL HERE",
-        "name": "Placeholder Image"
-      },
-      "storage": {
-        "id": 3,
-        "name": "Freezer"
-      }
+      "quantityUnitId": 4,
+      "id": 2
     },
     {
       "storageDate": "2023-09-13",
@@ -160,36 +130,6 @@
     },
     {
       "storageDate": "2023-09-13",
-      "storageId": 1,
-      "userId": 1,
-      "imageId": 1,
-      "name": "Cajun Hot Peanuts",
-      "typeId": 2,
-      "description": "They're hot!",
-      "expirationDate": "2025-10-13",
-      "quantity": 1,
-      "quantityUnitId": 1,
-      "id": 6,
-      "type": {
-        "id": 2,
-        "name": "Snack"
-      },
-      "quantityUnit": {
-        "id": 1,
-        "name": "Can"
-      },
-      "image": {
-        "id": 1,
-        "address": "URL HERE",
-        "name": "Placeholder Image"
-      },
-      "storage": {
-        "id": 3,
-        "name": "Freezer"
-      }
-    },
-    {
-      "storageDate": "2023-09-13",
       "storageId": 2,
       "userId": 2,
       "imageId": 1,
@@ -202,34 +142,17 @@
       "id": 7
     },
     {
-      "storageDate": "2023-09-14",
-      "storageId": 1,
       "userId": 1,
+      "storageId": 1,
+      "name": "Sweet Corn",
+      "description": "Generic",
+      "storageDate": "2023-09-15",
+      "expirationDate": "2023-09-30",
       "imageId": 1,
-      "name": "Crispy Oats",
-      "typeId": 3,
-      "description": "Offbrand Aldi Cheerios",
-      "expirationDate": "2023-09-16",
+      "typeId": 1,
       "quantity": 1,
-      "quantityUnitId": 3,
-      "id": 9,
-      "type": {
-        "id": 3,
-        "name": "Meal"
-      },
-      "quantityUnit": {
-        "id": 3,
-        "name": "Container"
-      },
-      "image": {
-        "id": 1,
-        "address": "URL HERE",
-        "name": "Placeholder Image"
-      },
-      "storage": {
-        "id": 1,
-        "name": "Pantry"
-      }
+      "quantityUnitId": 1,
+      "id": 8
     }
   ],
   "images": [
@@ -282,7 +205,7 @@
     },
     {
       "id": 9,
-      "address": "https://imgur.com/TwFMaVs",
+      "address": "https://i.imgur.com/TwFMaVs.png",
       "name": "Plate"
     }
   ]
