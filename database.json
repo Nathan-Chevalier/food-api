@@ -17,6 +17,12 @@
       "firstName": "Myriam",
       "userImageId": 3,
       "id": 3
+    },
+    {
+      "email": "val@email.com",
+      "firstName": "Val",
+      "userImageId": 6,
+      "id": 4
     }
   ],
   "storages": [
@@ -103,19 +109,6 @@
   ],
   "foods": [
     {
-      "userId": 1,
-      "storageId": 2,
-      "name": "Mustard",
-      "description": "Generic",
-      "storageDate": "2023-09-11",
-      "expirationDate": "2024-12-20",
-      "imageId": 1,
-      "typeId": 7,
-      "quantity": 0.5,
-      "quantityUnitId": 4,
-      "id": 2
-    },
-    {
       "storageDate": "2023-09-13",
       "storageId": 2,
       "userId": 1,
@@ -153,13 +146,82 @@
       "quantity": 1,
       "quantityUnitId": 1,
       "id": 8
+    },
+    {
+      "storageDate": "2023-09-18",
+      "storageId": 1,
+      "userId": 4,
+      "imageId": 1,
+      "name": "Banana",
+      "typeId": 2,
+      "description": "Bananas from Aldi",
+      "expirationDate": "2023-09-25",
+      "quantity": 2,
+      "quantityUnitId": 5,
+      "id": 9
+    },
+    {
+      "storageDate": "2023-09-18",
+      "storageId": 2,
+      "userId": 1,
+      "imageId": 1,
+      "name": "Biscuits",
+      "typeId": 3,
+      "description": "Roll of 12",
+      "expirationDate": "2023-10-19",
+      "quantity": 1,
+      "quantityUnitId": 1,
+      "id": 10
+    },
+    {
+      "storageDate": "2023-09-18",
+      "storageId": 3,
+      "userId": 1,
+      "imageId": 1,
+      "name": "Ice Cream Flight",
+      "typeId": 2,
+      "description": "3 types of gelato",
+      "expirationDate": "2024-04-17",
+      "quantity": 1,
+      "quantityUnitId": 3,
+      "id": 11
     }
   ],
   "images": [
     {
       "id": 1,
-      "address": "https://i.imgur.com/18j8mzo.png",
-      "name": "Placeholder Image"
+      "address": "https://i.imgur.com/CEmfxe3.png",
+      "name": "Box"
+    },
+    {
+      "id": 2,
+      "address": "https://i.imgur.com/1yGX0sY.png",
+      "name": "Bag"
+    },
+    {
+      "id": 3,
+      "address": "https://i.imgur.com/lA8zHjL.png",
+      "name": "Can"
+    },
+    {
+      "id": 4,
+      "address": "https://i.imgur.com/brtgr7X.png",
+      "name": "Jar"
+    },
+    {
+      "id": 5,
+      "address": "https://i.imgur.com/gLalBQC.png",
+      "name": "Bottle"
+    },
+    {
+      "id": 6,
+      "address": "https://i.imgur.com/Q57cRqb.png",
+      "name": "Plate"
+    },
+    {
+      "id": 7,
+      "address": "https://i.imgur.com/cAdW6Ok.png",
+      "name": "Fruit"
     }
   ],
   "userImages": [
