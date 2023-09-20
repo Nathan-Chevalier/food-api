@@ -141,7 +141,7 @@
       "description": "Generic",
       "storageDate": "2023-09-15",
       "expirationDate": "2023-09-30",
-      "imageId": 1,
+      "imageId": 3,
       "typeId": 1,
       "quantity": 1,
       "quantityUnitId": 1,
@@ -185,6 +185,19 @@
       "quantity": 1,
       "quantityUnitId": 3,
       "id": 11
+    },
+    {
+      "storageDate": "2023-09-19",
+      "storageId": 1,
+      "userId": 1,
+      "name": "Corn",
+      "typeId": 1,
+      "description": "Corn from Aldi",
+      "expirationDate": "2024-09-19",
+      "quantity": 4,
+      "quantityUnitId": 1,
+      "imageId": 3,
+      "id": 12
     }
   ],
   "images": [
@@ -222,6 +235,11 @@
       "id": 7,
       "address": "https://i.imgur.com/cAdW6Ok.png",
       "name": "Fruit"
+    },
+    {
+      "id": 7,
+      "address": "https://i.imgur.com/TyQi6TO.png",
+      "name": "Vegetable"
     }
   ],
   "userImages": [
