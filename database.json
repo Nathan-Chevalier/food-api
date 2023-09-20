@@ -237,9 +237,14 @@
       "name": "Fruit"
     },
     {
-      "id": 7,
+      "id": 8,
       "address": "https://i.imgur.com/TyQi6TO.png",
       "name": "Vegetable"
+    },
+    {
+      "id": 9,
+      "address": "https://i.imgur.com/I90baEL.png",
+      "name": "Food"
     }
   ],
   "userImages": [
