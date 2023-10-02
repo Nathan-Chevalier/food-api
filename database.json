@@ -5,24 +5,6 @@
       "firstName": "Nathan",
       "email": "nathan@email.com",
       "userImageId": 1
-    },
-    {
-      "email": "tina@email.com",
-      "firstName": "Tina",
-      "userImageId": 2,
-      "id": 2
-    },
-    {
-      "email": "myriam@email.com",
-      "firstName": "Myriam",
-      "userImageId": 3,
-      "id": 3
-    },
-    {
-      "email": "val@email.com",
-      "firstName": "Val",
-      "userImageId": 6,
-      "id": 4
     }
   ],
   "storages": [
@@ -109,32 +91,6 @@
   ],
   "foods": [
     {
-      "storageDate": "2023-09-13",
-      "storageId": 2,
-      "userId": 1,
-      "imageId": 1,
-      "name": "Celery",
-      "typeId": 1,
-      "description": "Stalk of Celery from Aldi",
-      "expirationDate": "2023-09-19",
-      "quantity": 1,
-      "quantityUnitId": 5,
-      "id": 5
-    },
-    {
-      "storageDate": "2023-09-13",
-      "storageId": 2,
-      "userId": 2,
-      "imageId": 1,
-      "name": "Leftovers",
-      "typeId": 4,
-      "description": "Some slop from yesterday",
-      "expirationDate": "2023-09-27",
-      "quantity": 1,
-      "quantityUnitId": 7,
-      "id": 7
-    },
-    {
       "userId": 1,
       "storageId": 1,
       "name": "Sweet Corn",
@@ -146,19 +102,6 @@
       "quantity": 1,
       "quantityUnitId": 1,
       "id": 8
-    },
-    {
-      "storageDate": "2023-09-18",
-      "storageId": 1,
-      "userId": 4,
-      "imageId": 1,
-      "name": "Banana",
-      "typeId": 2,
-      "description": "Bananas from Aldi",
-      "expirationDate": "2023-09-25",
-      "quantity": 2,
-      "quantityUnitId": 5,
-      "id": 9
     },
     {
       "storageDate": "2023-09-18",
@@ -187,17 +130,95 @@
       "id": 11
     },
     {
-      "storageDate": "2023-09-19",
-      "storageId": 1,
       "userId": 1,
+      "storageId": 1,
       "name": "Corn",
-      "typeId": 1,
       "description": "Corn from Aldi",
+      "storageDate": "2023-09-19",
       "expirationDate": "2024-09-19",
+      "imageId": 3,
+      "typeId": 1,
       "quantity": 4,
       "quantityUnitId": 1,
-      "imageId": 3,
       "id": 12
+    },
+    {
+      "storageDate": "2023-09-20",
+      "storageId": 1,
+      "userId": 1,
+      "name": "Banana",
+      "typeId": 2,
+      "description": "Banana",
+      "expirationDate": "2023-09-27",
+      "quantity": 1,
+      "quantityUnitId": 5,
+      "imageId": 7,
+      "id": 13
+    },
+    {
+      "storageDate": "2023-09-20",
+      "storageId": 1,
+      "userId": 1,
+      "name": "Cantelope",
+      "typeId": 2,
+      "description": "Whole Cantelope",
+      "expirationDate": "2023-09-27",
+      "quantity": 1,
+      "quantityUnitId": 5,
+      "imageId": 7,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "storageId": 3,
+      "name": "Leftover Pot Roast",
+      "description": "Container of left over dinner",
+      "storageDate": "2023-09-21",
+      "expirationDate": "2023-09-23",
+      "imageId": 6,
+      "typeId": 3,
+      "quantity": 1,
+      "quantityUnitId": 7,
+      "id": 15
+    },
+    {
+      "storageDate": "2023-09-22",
+      "storageId": 2,
+      "userId": 1,
+      "name": "ham",
+      "typeId": 1,
+      "expirationDate": "1997-08-31",
+      "description": "hammmmmm",
+      "quantity": 34,
+      "quantityUnitId": 6,
+      "imageId": 3,
+      "id": 16
+    },
+    {
+      "storageDate": "2023-09-23",
+      "storageId": 3,
+      "userId": 1,
+      "name": "grapes",
+      "typeId": 2,
+      "expirationDate": "2023-09-29",
+      "description": "grrapesss",
+      "quantity": 1,
+      "quantityUnitId": 8,
+      "imageId": 7,
+      "id": 17
+    },
+    {
+      "storageDate": "2023-09-26",
+      "storageId": 1,
+      "userId": 1,
+      "name": "Cheerios",
+      "typeId": 3,
+      "expirationDate": "2023-12-19",
+      "description": "It's Cheerios",
+      "quantity": 1,
+      "quantityUnitId": 3,
+      "imageId": 1,
+      "id": 18
     }
   ],
   "images": [
@@ -250,48 +271,33 @@
   "userImages": [
     {
       "id": 1,
-      "address": "https://i.imgur.com/7R91azI.png",
-      "name": "Avocado"
+      "address": "https://i.imgur.com/Iw6lVDf.png",
+      "name": "Cheese Pepper"
     },
     {
       "id": 2,
-      "address": "https://i.imgur.com/66yPh3L.png",
-      "name": "Mushroom"
+      "address": "https://i.imgur.com/o5OCY6k.png",
+      "name": "Banana Dog"
     },
     {
       "id": 3,
-      "address": "https://i.imgur.com/8lvMqVZ.png",
-      "name": "Cheese"
+      "address": "https://i.imgur.com/AIf0Wes.png",
+      "name": "Lemonade"
     },
     {
       "id": 4,
-      "address": "https://i.imgur.com/HcWk7DC.png",
-      "name": "Bread"
+      "address": "https://i.imgur.com/nLGe9fd.png",
+      "name": "Cupcake"
     },
     {
       "id": 5,
-      "address": "https://i.imgur.com/IO0xMuU.png",
-      "name": "Pepper"
+      "address": "https://i.imgur.com/astOPhF.png",
+      "name": "Cherrycado"
     },
     {
       "id": 6,
-      "address": "https://i.imgur.com/fXYQZVn.png",
-      "name": "Banana"
-    },
-    {
-      "id": 7,
-      "address": "https://i.imgur.com/tNcTcuJ.png",
-      "name": "Hot Dog"
-    },
-    {
-      "id": 8,
-      "address": "https://i.imgur.com/tjsvXbr.png",
-      "name": "Pineapple"
-    },
-    {
-      "id": 9,
-      "address": "https://i.imgur.com/TwFMaVs.png",
-      "name": "Plate"
+      "address": "https://i.imgur.com/vffDCkM.png",
+      "name": "Pineapple Fish"
     }
   ]
 }
